@@ -1,0 +1,53 @@
+.other-card {
+    padding: 3.2rem 2.8rem;
+    background-color: var(--light-navy);
+    box-shadow: 0 20px 30px -15px var(--navy-shadow);
+    border-radius: 4px;
+    transition: transform .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.other-card:hover {
+    transform: translateY(-7px);
+}
+
+.other-card .icon-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.other-card .folder-icon {
+    color: var(--green);
+}
+
+.other-card .git {
+    margin-right: 1.5rem;
+}
+
+.other-card h2 a {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--lightest-slate);
+}
+
+.other-card h2 a:hover,
+.other-card h2 a:active,
+.other-card h2 a:focus {
+    color: var(--green);
+}
+
+.other-card p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.other-card h6 {
+    font-family: var(--font-fira);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--slate);
+}
