@@ -1,6 +1,4 @@
 import './index.css';
-// import { useEffect } from 'react';
-// import Aos from 'aos';
 
 // Component
 import Header from '../../components/Header';
@@ -11,9 +9,6 @@ import OtherProject from '../../components/OtherProject';
 import Projects from '../../provider/projects';
 
 const WorkedOn = ({aos}) => {
-    // useEffect(() => {
-    //     Aos.init({duration: 1000})
-    // }, []);
 
     return ( 
         <section data-aos={aos} className="project-section" id='project'>

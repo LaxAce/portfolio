@@ -7,7 +7,7 @@ const OtherProject = ({project}) => {
     const {repo, url, details, title, tools} = project;
 
     useEffect(() => {
-        Aos.init({duration: 1000})
+        Aos.init({duration: 600})
     }, []);
 
     return ( 

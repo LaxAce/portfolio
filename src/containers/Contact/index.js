@@ -4,7 +4,7 @@ import Aos from 'aos';
 
 const Contact = () => {
     useEffect(() => {
-        Aos.init({duration: 1000})
+        Aos.init({duration: 600})
       }, []);
 
     return ( 

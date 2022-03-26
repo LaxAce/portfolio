@@ -6,7 +6,7 @@ import {Hero, About, WorkedAt, WorkedOn, Contact, Footer} from './containers/ind
 
 function App() {
   useEffect(() => {
-    Aos.init({duration: 1000})
+    Aos.init({duration: 600})
   }, []);
 
   return (
