@@ -1,5 +1,7 @@
 import './index.css';
+import { useEffect } from 'react';
 import {FiGithub, FiExternalLink, } from 'react-icons/fi';
+import Aos from 'aos';
 
 const MajorProject = ({project}) => {
 
@@ -11,9 +13,13 @@ const MajorProject = ({project}) => {
             backgroundSize: 'cover',
         }
     };
+    
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, []);
 
     return ( 
-        <div style={majorCardBackground(project)} className={id % 2 == 1 ? "major-card" : "major-card reverse" }>
+        <div data-aos='fade-up' style={majorCardBackground(project)} className={id % 2 == 1 ? "major-card" : "major-card reverse" }>
             <div className={id % 2 == 1 ? "img-container" : "img-container reverse" }>
                 <a href={url}>
                     <img src={img} className='project-img' alt='project' />

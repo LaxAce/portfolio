@@ -83,7 +83,10 @@ const Navbar = () => {
     return ( 
         <div className='navbar'>
             <div className="top-nav-container">
-                <a href='/' className="logo">A</a>
+                <a href='/' className="logo">
+                    <div>A</div>
+                    <span>+</span>
+                </a>
                 <div className="menu-list-container">
                     {navItems(handleLink)}
                 </div>

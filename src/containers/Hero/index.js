@@ -1,15 +1,17 @@
 import './index.css';
-import {FiGithub, FiInstagram, FiTwitter, FiLinkedin, } from 'react-icons/fi'
+import {useEffect} from 'react';
+import {FiGithub, FiInstagram, FiTwitter, FiLinkedin, } from 'react-icons/fi';
+
 
 // Components
 import Navbar from '../../components/Navbar';
 
-const Hero = () => {
+const Hero = ({aos}) => {
 
     return ( 
         <div className="hero">
-            {/* <Navbar/> */}
-            <div className="hero-body">
+            <Navbar/>
+            <div data-aos={aos} className="hero-body">
                 <h4>Hi, my name is</h4>
                 <h1>Abdulhafeez Hameed.</h1>
                 <h2>I build things for the web.</h2>

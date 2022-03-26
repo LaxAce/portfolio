@@ -9,19 +9,19 @@ import JobDetails from '../../components/JobDetails';
 // Provider
 import Experience from '../../provider/experience';
 
-const WorkedAt = () => {
-    const [focus, setFocus] = useState(false)
-    const [currentId, setCurrentId] = useState(1)
+const WorkedAt = ({aos}) => {
+    const [focus, setFocus] = useState(false);
+    const [currentId, setCurrentId] = useState(1);
 
     const toggleCompany = (id) => {
         setCurrentId(id)
         setFocus(true)
-    }
+    };
 
     const {title, company, url, startDate, endDate, tasks, contract} = Experience.find(data => data.id == currentId);
 
     return ( 
-        <section className='experience-section' id='experience'>
+        <section data-aos={aos} className='experience-section' id='experience'>
             <Header label={'02.'} title={"Where I've Worked"} />
             <div className="experience-body">
                 <div className="company-list">

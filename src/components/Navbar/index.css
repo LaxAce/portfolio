@@ -24,23 +24,46 @@
 }
 
 .navbar .logo {
+    /* 
+    color: var(--green);
+    font-size: 2rem;
+    padding-top: 3px ;
+    padding-right: 2px ;
+    
+    text-align: center;
+    z-index: 2;
+    transition: all .4s; */
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
     width: 3.5rem;
     height: 3.5rem;
     border: 2px solid var(--green);
-    color: var(--green);
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-align: center;
-    z-index: 2;
     border-radius: 8rem;
-    transition: all .4s;
+    background-color: var(--green);
+    color: var(--navy);
+
 }
 
 .navbar .logo:hover,
 .navbar .logo:active {
-    color: var(--navy);
-    background-color: var(--green);
+    background-color: var(--navy);
+    color: var(--green);
+}
+
+.navbar .logo div {
+    margin-right: 2px;
+}
+
+.navbar .logo span {
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 600;
+    right: 9%;
+    top: 6%;
 }
 
 .navbar li {

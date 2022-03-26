@@ -1,15 +1,20 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
 import {Hero, About, WorkedAt, WorkedOn, Contact, Footer} from './containers/index'
 
 function App() {
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  }, []);
+
   return (
     <div className="App">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <WorkedAt/>
-      <WorkedOn/>
+      <Hero aos='fade-up'/>
+      <About aos='fade-up'/>
+      <WorkedAt aos='fade-up'/>
+      <WorkedOn aos='fade-up'/>
       <Contact/>
       <Footer/>
     </div>

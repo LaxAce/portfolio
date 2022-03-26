@@ -61,6 +61,11 @@
     .experience-section .company-list li {
         text-align: start;
         padding-left: 2rem;
+        transition: all .3s ease;
+    }
+
+    .experience-section .company-list li:hover {
+        background-color: var(--light-navy);
     }
 
     .experience-section .company-list li.active {

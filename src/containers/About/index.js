@@ -1,12 +1,17 @@
 import './index.css';
 import { useState } from 'react';
 import {BsCaretRight} from 'react-icons/bs';
+
+// Asset
 import myImage from '../../assets/multicolor.png'
+
+// Component
 import Header from '../../components/Header';
 
-const About = () => {
+
+const About = ({aos}) => {
     const stack = ['JavaScript  (ES6+)', 'React', 'CSS', 'Redux', 'Node.js', 'MongoDB']
-    const [imgHover, setImgHover] = useState(false)
+    const [imgHover, setImgHover] = useState(false);
 
     const displayStackList = () => {
        return stack.map((each, i) => (
@@ -18,9 +23,9 @@ const About = () => {
     }
     
     return ( 
-        <section className="about-section" id='about'>
+        <section data-aos={aos} className="about-section" id='about'>
             <Header label={'01.'} title={'About Me'} />
-            <div className="about-body">
+            <div  className="about-body">
                 <div className="about-content">
                     <p>Hello! my name is Abdulhafeez and i have fun coding. From the moment I wrote my first line of code, I Knew I was hooked into the world of software development.
                     </p>

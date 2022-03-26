@@ -1,11 +1,17 @@
 import './index.css';
+import { useEffect } from 'react';
 import {FiFolder, FiExternalLink, FiGithub} from 'react-icons/fi'
+import Aos from 'aos';
 
 const OtherProject = ({project}) => {
     const {repo, url, details, title, tools} = project;
 
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, []);
+
     return ( 
-        <div className="other-card">
+        <div data-aos='fade-up' className="other-card">
             <div className="card-head">
                 <div className="icon-card">
                     <FiFolder className='folder-icon' size={42} />

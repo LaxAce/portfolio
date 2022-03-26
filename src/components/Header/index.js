@@ -1,3 +1,5 @@
+import './index.css';
+
 const Header = ({label, title}) => {
     return ( 
         <div className="section-header">
