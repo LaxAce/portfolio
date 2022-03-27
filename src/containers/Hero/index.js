@@ -15,7 +15,8 @@ const Hero = ({aos}) => {
                 <h4>Hi, my name is</h4>
                 <h1>Abdulhafeez Hameed.</h1>
                 <h2>I build things for the web.</h2>
-                <p>I'm a software engineer specialized in building exceptional digital solutions. Currently, I'm focused on building accessible, human-centered products at <a className='animated-link' href="https://newcoretechnologies.netlify.app/">Newcore Technology</a></p>
+                <p>I'm a software developer specialized in building exceptional digital solutions. Currently, I'm focused on building interactive experiences and creating emotions through technology.
+                </p>
                 <a href='mailto:laxhameedhafeez@gmail.com' className='btn btn-hero'>Get in touch</a>
             </div>
             <div className="sticky-bottom">

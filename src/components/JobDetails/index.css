@@ -24,9 +24,7 @@
 }
 
 .active-company p {
-    font-size: 1.6rem;
     font-family: var(--font-firs);
-    
 }
 
 .active-company .task-container {
