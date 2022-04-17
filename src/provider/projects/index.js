@@ -63,6 +63,16 @@ const Projects = [
         img: null,
         featured: false,
     },
+    {
+        id: 7,
+        title: "Admin Panel Backend",
+        details: "User management with registration and authentication. Non-authenticated users can not have access to the user management (admin panel). Authenticated users has access to the user management table: id, name, e-mail, last login time, registration time, status (active/blocked). With Documentation published on postman docs.",
+        tools: "NodeJS Express MongoDB",
+        repo: "https://github.com/LaxAce/admin-panel-backend",
+        url: "https://documenter.getpostman.com/view/18521051/Uyr5nyqH",
+        img: null,
+        featured: false,
+    },
 
 ];
 
