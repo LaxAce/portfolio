@@ -12,12 +12,14 @@ const Hero = ({aos}) => {
         <div className="hero">
             <Navbar/>
             <div data-aos={aos} className="hero-body">
-                <h4>Hi, my name is</h4>
-                <h1>Abdulhafeez Hameed.</h1>
-                <h2>I build things for the web.</h2>
-                <p>I'm a software developer specialized in building exceptional digital solutions. Currently, I'm focused on building interactive experiences and creating emotions through technology.
-                </p>
-                <a href='mailto:laxhameedhafeez@gmail.com' className='btn btn-hero'>Get in touch</a>
+                <div className="body-wrapper">
+                    <h4>Hi, my name is</h4>
+                    <h1>Abdulhafeez Hameed.</h1>
+                    <h2>I build things for the web.</h2>
+                    <p>I'm a software developer specialized in building exceptional digital solutions. Currently, I'm focused on building interactive experiences and creating emotions through technology.
+                    </p>
+                    <a href='mailto:laxhameedhafeez@gmail.com' className='btn btn-hero'>Get in touch</a>
+                </div>
             </div>
             <div className="sticky-bottom">
                 <div className="sticky-left">
