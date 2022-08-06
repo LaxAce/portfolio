@@ -1,6 +1,7 @@
 import './index.css';
 import { useState } from 'react';
 import {BsCaretRight} from 'react-icons/bs';
+import { stack } from '../../provider/stack';
 
 // Asset
 import myImage from '../../assets/multicolor.png'
@@ -10,7 +11,7 @@ import Header from '../../components/Header';
 
 
 const About = ({aos}) => {
-    const stack = ['JavaScript  (ES6+)', 'React', 'CSS', 'Redux', 'Node.js', 'MongoDB']
+    
     const [imgHover, setImgHover] = useState(false);
 
     const displayStackList = () => {

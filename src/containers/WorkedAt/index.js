@@ -7,18 +7,20 @@ import Header from '../../components/Header';
 import JobDetails from '../../components/JobDetails';
 
 // Provider
-import Experience from '../../provider/experience';
+import experience from '../../provider/experience';
 
 const WorkedAt = ({aos}) => {
     const [focus, setFocus] = useState(false);
-    const [currentId, setCurrentId] = useState(1);
+    const [currentId, setCurrentId] = useState(experience.length);
 
     const toggleCompany = (id) => {
         setCurrentId(id)
         setFocus(true)
     };
 
-    const {title, company, url, startDate, endDate, tasks, contract} = Experience.find(data => data.id == currentId);
+    const sortedExp = experience.sort((a,b) => b.id - a.id)
+
+    const {title, company, url, startDate, endDate, tasks, contract} = sortedExp.find(data => data.id == currentId);
 
     return ( 
         <section data-aos={aos} className='experience-section' id='experience'>
@@ -26,7 +28,7 @@ const WorkedAt = ({aos}) => {
             <div className="experience-body">
                 <div className="company-list">
                     <ul>
-                        {Experience.map(value => {
+                        {sortedExp.map(value => {
                             const {id, company} = value;
                             const noFocus = id == currentId ? 'active' : null
                             return <li 
@@ -43,7 +45,8 @@ const WorkedAt = ({aos}) => {
                     startDate={startDate}
                     endDate={endDate}
                     tasks={tasks}
-                    contract={contract} />
+                    contract={contract}
+                />
             </div>
         </section>
      );

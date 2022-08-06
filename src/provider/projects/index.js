@@ -1,6 +1,6 @@
 import mmc from "../../assets/mmc.png";
 import buymore from "../../assets/buymore.png";
-import countries from "../../assets/countries.png";
+import waki from "../../assets/waki.png";
 
 const Projects = [
   {
@@ -27,17 +27,28 @@ const Projects = [
   },
   {
     id: 3,
+    title: "Wok & Wakis",
+    details:
+      "Kings family restaurant landing page, with categories of dishes displayed. Items can be added to cart, with necessary specification, and multiple items could be added and removed from cart.",
+    tools: "React.js CSS Context API",
+    repo: "https://github.com/LaxAce/wok-and-wakis",
+    url: "https://waki.netlify.app/",
+    img: waki,
+    featured: false,
+  },
+  {
+    id: 4,
     title: "Where In The World",
     details:
       "A go-to web application for informative details about all the countries in the world. It has a theme-changing feature for sight well-being, a quick search by name, and a region filter. ReactJS and CSS3 were utilized for the development.",
     tools: "React.js CSS",
     repo: "https://github.com/LaxAce/countryAPI",
     url: "https://countrydet.netlify.app/",
-    img: countries,
+    img: null,
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Dictionary",
     details:
       "A dictionary web application with auto suggestion. It uses Datamuse, random-words-api.vercel.app and api.dictionaryapi.dev/ as backend resources",
@@ -48,7 +59,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Admin Panel Frontend",
     details: "User management with registration and authentication.",
     tools: "React.js Bootstrap",
@@ -58,7 +69,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "USer Dashboard",
     details: "A dashboard for user management",
     tools: "React.js Redux",
@@ -68,7 +79,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Admin Panel Backend",
     details:
       "User management with registration and authentication. Non-authenticated users can not have access to the user management (admin panel). Authenticated users has access to the user management table: id, name, e-mail, last login time, registration time, status (active/blocked). With Documentation published on postman docs.",
@@ -79,7 +90,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Newcore Landing page clone",
     details:
       "A  landing page with different sections, this application was designed in raw Javascript (no libraries), HTML, and CSS. It manipulates DOM elements and relies on event handling",
@@ -90,7 +101,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "Restful API With Node.js",
     details:
       "A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",

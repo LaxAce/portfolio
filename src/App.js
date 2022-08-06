@@ -12,11 +12,13 @@ function App() {
   return (
     <div className="App">
       <Hero aos='fade-up'/>
-      <About aos='fade-up'/>
-      <WorkedAt aos='fade-up'/>
-      <WorkedOn aos='fade-up'/>
-      <Contact/>
-      <Footer/>
+      <div className='container'>
+        <About aos='fade-up'/>
+        <WorkedAt aos='fade-up'/>
+        <WorkedOn aos='fade-up'/>
+        <Contact/>
+        <Footer/>
+      </div>
     </div>
   );
 }
