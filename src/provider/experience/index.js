@@ -79,16 +79,32 @@ const Experience = [
       {
         id: 1,
         details:
-          "Building the company's product and Write modern, performant, maintainable code.",
+          "Working with Software Engineering team in the development and improvement of the In-house Product.",
       },
       {
         id: 2,
-        details:
-          "Languages and libraries used are TypeScript, JavaScript, CSS, React, Next, Strapi, Node.js, Express, PostgreSQL, Git, and GitHub",
+        details: "Interface with engineers and designers on daily basis, on improving and developing the product.",
       },
       {
         id: 3,
-        details: "Interface with engineers and designer on daily basis, on improving and developing the product",
+        details: "Helped the company gain more insight on the prodcuts by integrating various Analytics tools, such as Google Analytics, Facebook Pixel, Facebook Conversions API.",
+      },
+      {
+        id: 4,
+        details: "Integrate forms with Google Sheet and Slack(channels) for more effective optimization.",
+      },
+      {
+        id: 5,
+        details: "Lead scrum meetings occasionally.",
+      },
+      {
+        id: 6,
+        details: "Building the company's product and Write modern, performant, maintainable code.",
+      },
+      {
+        id: 7,
+        details:
+          "Languages and libraries used are TypeScript, JavaScript, CSS, React, Next, Strapi, Node.js, Express, PostgreSQL, Git, and GitHub...",
       },
     ],
     contract: "Full-time",
