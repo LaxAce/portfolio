@@ -2,3 +2,4 @@ Features that need to be added
 
 
 Bug
+- fix navbar scrolling Bug

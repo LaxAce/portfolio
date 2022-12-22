@@ -10,7 +10,7 @@ const Footer = () => {
                 <a href='https://twitter.com/Lax_hood'><FiTwitter size={21} className='small-icon' /></a>
                 <a href='https://www.linkedin.com/in/abdulhafeez-hameed-606445219/'><FiLinkedin size={21}  className='small-icon' /></a>
             </div>
-            <p>Design inspired by Brittany Chiang's portfolio. Built by Abdulhafeez Hameed.</p>
+            <p>Design inspired by Brittany Chiang's portfolio. Built by <a href='/' className='animated-link'>Abdulhafeez Hameed.</a></p>
         </footer>
      );
 }
