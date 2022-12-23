@@ -15,7 +15,7 @@ const Contact = () => {
                 Should you want to hire me, get in touch or just say hi, kindly hit that button below and i will be sure to
                 reply you in no time!
             </p>
-            <a href='mailto:laxhameedhafeez@gmail.com' className="btn">Get in touch</a>
+            <a href='mailto:laxhameedhafeez@gmail.com' target='_blank' className="btn">Get in touch</a>
         </section>
      );
 }

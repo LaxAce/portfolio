@@ -6,7 +6,7 @@ const JobDetails = (props) => {
 
     return ( 
         <div className="active-company">
-            <h2>{title}<a href={url} className='animated-link'> @ {company}</a></h2>
+            <h2>{title}<a href={url} target='_blank' className='animated-link'> @ {company}</a></h2>
             <div>
                 <p>{startDate} &#8212; {endDate}</p>
                 <span className='contract-type'>{contract}</span>

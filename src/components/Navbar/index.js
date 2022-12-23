@@ -15,7 +15,7 @@ const navItems = (handleLink) => (
             <li>03. <a href='#project' onClick={(event) => handleLink(event,'project')}>Work</a></li>
             <li>04. <a href='#contact' onClick={(event) => handleLink(event,'contact')}>Contact</a></li>
         </ul>
-        <a href={resume} className='btn btn-resume'>Resume</a>
+        <a href={resume} target='_blank' className='btn btn-resume'>Resume</a>
     </>
 )
 

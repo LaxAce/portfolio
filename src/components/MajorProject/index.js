@@ -21,7 +21,7 @@ const MajorProject = ({project}) => {
     return ( 
         <div data-aos='fade-up' style={majorCardBackground(project)} className={id % 2 == 1 ? "major-card" : "major-card reverse" }>
             <div className={id % 2 == 1 ? "img-container" : "img-container reverse" }>
-                <a href={url}>
+                <a href={url} target='_blank'>
                     <img src={img} className='project-img' alt='project' />
                 </a>
             </div>
@@ -32,8 +32,8 @@ const MajorProject = ({project}) => {
                 <p className='project-details'>{details}</p>
                 <p className='tools'>{tools}</p>
                 <div className="project-links">
-                    {repo && <a href={repo}><FiGithub size={21} className='small-icon git'/></a>}
-                    {url && <a href={url}><FiExternalLink size={21} className='small-icon link'/></a>}
+                    {repo && <a href={repo} target='_blank'><FiGithub size={21} className='small-icon git'/></a>}
+                    {url && <a href={url} target='_blank'><FiExternalLink size={21} className='small-icon link'/></a>}
                 </div>
             </div>
         </div>

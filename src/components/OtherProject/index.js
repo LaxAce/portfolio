@@ -17,19 +17,19 @@ const OtherProject = ({ project }) => {
           <FiFolder className="folder-icon" size={42} />
           <div className="icon-small-container">
             {repo && (
-              <a href={repo}>
+              <a href={repo} target='_blank'>
                 <FiGithub size={21} className="small-icon git" />
               </a>
             )}
             {url && (
-              <a href={url}>
+              <a href={url} target='_blank'>
                 <FiExternalLink size={21} className="small-icon link" />
               </a>
             )}
           </div>
         </div>
         <h2>
-          <a href={url}>{title}</a>
+          <a href={url} target='_blank'>{title}</a>
         </h2>
         <p>{details}</p>
       </div>
