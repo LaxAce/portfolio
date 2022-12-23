@@ -1,4 +1,7 @@
 Features that need to be added
+- improve loader animation
+- add stat feature
+- Improve Experice slider
 
 
 Bug

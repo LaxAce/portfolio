@@ -13,7 +13,7 @@ function App() {
 
   setTimeout(() => {
     setShowLoader(false);
-  }, 1200);
+  }, 1500);
 
   return (
     <div className="App">

@@ -1,8 +1,9 @@
 import './index.css'
-const Loader = () => {
+
+const Loader = () => { 
     return (
         <div className="loader">
-            <div className="loader-logo">
+            <div className="loader-logo loading">
                 <div>A</div>
                 <span>+</span>
             </div>

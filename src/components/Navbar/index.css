@@ -3,16 +3,8 @@
   padding: 1rem 2.5rem;
   background-color: var(--navy);
   position: fixed;
-  /* opacity: 0.9; */
   top: 0;
   z-index: 5;
-  /* margin-bottom: 4rem; */
-  /* transition: all .3s; */
-}
-
-.navbar.remove {
-  /* position: relative; */
-  /* opacity: 0; */
 }
 
 .navbar .top-nav-container {
@@ -29,15 +21,6 @@
 }
 
 .navbar .logo {
-  /* 
-    color: var(--green);
-    font-size: 2rem;
-    padding-top: 3px ;
-    padding-right: 2px ;
-    
-    text-align: center;
-    z-index: 2;
-    transition: all .4s; */
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,16 +35,23 @@
   font-weight: 600;
   width: 3.5rem;
   height: 3.5rem;
-  border: 2px solid var(--green);
   border-radius: 8rem;
-  background-color: var(--green);
-  color: var(--navy);
-}
-
-.navbar .logo:hover,
-.navbar .logo:active {
   background-color: var(--navy);
   color: var(--green);
+}
+
+.navbar .logo::after {
+  content: "";
+  background-image: conic-gradient(
+      var(--green) 20deg,
+      transparent 120deg
+  );
+  width: 114%;
+  height: 114%;
+  border-radius: 100%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+  z-index: -1;
 }
 
 .navbar .logo div {
@@ -247,5 +237,14 @@
 @media screen and (max-width: 1200px) and (orientation: landscape) {
   .navbar li {
     font-size: 1.4rem;
+  }
+}
+
+@keyframes rotate {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
   }
 }
