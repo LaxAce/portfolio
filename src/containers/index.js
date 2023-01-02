@@ -4,6 +4,7 @@ import Footer from './Footer/index';
 import Hero from './Hero/index';
 import WorkedOn from './WorkedOn/index';
 import WorkedAt from './WorkedAt/index';
+import Stats from './Stats';
 
 export {
     Hero,
@@ -12,4 +13,5 @@ export {
     WorkedOn,
     Contact,
     Footer,
+    Stats,
 }

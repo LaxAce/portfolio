@@ -20,7 +20,7 @@ const WorkedAt = ({aos}) => {
 
     const sortedExp = experience.sort((a,b) => b.id - a.id)
 
-    const {title, company, url, startDate, endDate, tasks, contract} = sortedExp.find(data => data.id == currentId);
+    const {title, company, url, startDate, endDate, tasks, contract} = sortedExp.find(data => data.id === currentId);
 
     return ( 
         <section data-aos={aos} className='experience-section' id='experience'>
@@ -30,9 +30,9 @@ const WorkedAt = ({aos}) => {
                     <ul>
                         {sortedExp.map(value => {
                             const {id, company} = value;
-                            const noFocus = id == currentId ? 'active' : null
+                            const noFocus = id === currentId ? 'active' : null
                             return <li 
-                                className={focus && id == currentId ? 'active focus' : noFocus} 
+                                className={focus && id === currentId ? 'active focus' : noFocus} 
                                 key={id} 
                                 onClick={() => toggleCompany(id)}>{company}</li>
                         })}

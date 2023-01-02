@@ -2,7 +2,7 @@ import './App.css';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
 import Aos from 'aos';
-import { Hero, About, WorkedAt, WorkedOn, Contact, Footer } from './containers/index'
+import { Hero, About, WorkedAt, WorkedOn, Contact, Footer, Stats } from './containers/index'
 import Loader from './components/Loader';
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
               <About aos='fade-up' />
               <WorkedAt aos='fade-up' />
               <WorkedOn aos='fade-up' />
+              <Stats aos='fade-up' />
               <Contact />
               <Footer />
             </div>
