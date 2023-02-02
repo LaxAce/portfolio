@@ -4,7 +4,7 @@ import {BsCaretRight} from 'react-icons/bs';
 import { stack } from '../../provider/stack';
 
 // Asset
-import myImage from '../../assets/multicolor.png'
+import myImage from '../../assets/my-pics.png'
 
 // Component
 import Header from '../../components/Header';
