@@ -9,7 +9,7 @@ const Contact = () => {
 
     return ( 
         <section data-aos='fade-up' className="contact-section" id='contact'>
-            <h2>04. What's Next?</h2>
+            <h2>05. What's Next?</h2>
             <h1>Get In Touch</h1>
             <p>You like what you see right? I'm open for job opportunities, and actively interviewing.
                 Should you want to hire me, get in touch or just say hi, kindly hit that button below and i will be sure to
