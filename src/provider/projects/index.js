@@ -28,17 +28,6 @@ const Projects = [
   },
   {
     id: 3,
-    title: "E-commerce Web App (BuyMore)",
-    details:
-      "An e-commerce full-stack web application with the MERN stack. The backend API's implement all the CRUD operations on the various endpoints. It implements JSON Web Token (JWT) to pass identity of authenticated users",
-    tools: "React.js CSS Node.js Express.js MongoDB",
-    repo: "https://github.com/LaxAce/buymore",
-    url: "https://buymore.netlify.app/",
-    img: buymore,
-    featured: false,
-  },
-  {
-    id: 4,
     title: "Wok & Wakis",
     details:
       "Kings family restaurant landing page, with categories of dishes displayed. Items can be added to cart, with necessary specification, and multiple items could be added and removed from cart.",
@@ -46,6 +35,17 @@ const Projects = [
     repo: "https://github.com/LaxAce/wok-and-wakis",
     url: "https://waki.netlify.app/",
     img: waki,
+    featured: false,
+  },
+  {
+    id: 4,
+    title: "E-commerce Web App (BuyMore)",
+    details:
+      "An e-commerce full-stack web application with the MERN stack. The backend API's implement all the CRUD operations on the various endpoints. It implements JSON Web Token (JWT) to pass identity of authenticated users",
+    tools: "React.js CSS Node.js Express.js MongoDB",
+    repo: "https://github.com/LaxAce/buymore",
+    url: "https://buymore.netlify.app/",
+    img: buymore,
     featured: false,
   },
   {
