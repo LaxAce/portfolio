@@ -8,7 +8,7 @@ const Projects = [
     id: 1,
     title: "MMC Mentorship Web App",
     details:
-      "A web app for an annual mentorship programme with React.js, AntDesign, Node.js, Express.js and many more.",
+      "A web application for an annual mentorship program. The platform serves as the central hub where mentees and mentors are seamlessly connected, fostering a productive mentoring experience. The app facilitates the entire mentoring process, allowing mentors to assign tasks to mentees and closely monitor their progress, all within the convenience of the application.",
     tools: "React.js Redux ReactStrap AntDesign Node.js Express PostgreSQL",
     repo: null,
     url: null,
