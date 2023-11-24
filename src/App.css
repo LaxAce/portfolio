@@ -154,6 +154,10 @@ section {
   margin-right: auto;
 }
 
+.Cursor--blinking {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   p {
     line-height: 2.5rem;
