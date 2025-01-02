@@ -1,1 +1,1 @@
-export const stack = ['JavaScript  (ES6+)', 'TypeScript', 'React', 'Vue', 'CSS', 'Tailwind CSS', 'Redux', 'Node.js']
+export const stack = ['JavaScript  (ES6+)', 'TypeScript', 'React', 'Next.js', 'Vue', 'CSS', 'Tailwind CSS', 'Supabase', 'Redux', 'Node.js']
