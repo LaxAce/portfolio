@@ -4,8 +4,8 @@ const Experience = [
     title: "Frontend Developer",
     company: "Newcore",
     url: "https://newcoretechnologies.netlify.app/",
-    startDate: "October 2021",
-    endDate: "August 2022",
+    startDate: "January 2021",
+    endDate: "April 2022",
     tasks: [
       {
         id: 1,
@@ -17,7 +17,7 @@ const Experience = [
         details: "Implement the front-end of FamTree web application",
       },
     ],
-    contract: "Part-time",
+    contract: "Full-time",
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ const Experience = [
         details: "Participate in meetings",
       },
     ],
-    contract: "Internship",
+    contract: "Full-time",
   },
   {
     id: 4,
@@ -105,6 +105,38 @@ const Experience = [
         id: 7,
         details:
           "Languages and libraries used are TypeScript, JavaScript, CSS, React, Next, Strapi, Node.js, Express, PostgreSQL, Git, and GitHub...",
+      },
+    ],
+    contract: "Full-time",
+  },
+  {
+    id: 5,
+    title: "Founder & Full-Stack Engineer",
+    company: "AiNameIt",
+    url: "https://www.ainameit.com/",
+    startDate: "November 2024",
+    endDate: "Present",
+    tasks: [
+      {
+        id: 1,
+        details:
+          "Built and launched an AI-powered SaaS used by hundreds of users, delivering business name and domain availability suggestions in real time.",
+      },
+      {
+        id: 2,
+        details: "Designed and developed the full product using Next.js, React, TypeScript, Node.js, Supabase, and OpenAI...",
+      },
+      {
+        id: 3,
+        details: "Implemented automated domain availability checks, AI-powered name generation, and fully responsive UI.",
+      },
+      {
+        id: 4,
+        details: "Built marketing automation, analytics, and SEO features that brought in organic traffic with no ad spend.",
+      },
+      {
+        id: 5,
+        details: "Managed product vision, user feedback loops, feature prioritization, and rapid iterations.",
       },
     ],
     contract: "Full-time",
